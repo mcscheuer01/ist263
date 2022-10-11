@@ -1,0 +1,15 @@
+p,ul {
+    color: maroon;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+p a {
+    color: green;
+}
+#firstparagraph {
+    color: fuchsia;
+}
+.pinktext{color: pink}
+a {
+    text-decoration: none;
+}
