@@ -1,0 +1,41 @@
+a:visited{
+    color: #a93f55;
+}
+
+a:hover{
+    color: #f2545b;
+}
+
+body {
+    background-color: #f3f7f0;
+    /*
+    background-image: url("../images/pumpkin.jpg");
+    background-repeat: no-repeat;
+    */
+}
+
+.second {
+    border: 2px solid #8c5e58;
+    margin: 20px;
+    padding: 10px;
+}
+
+.nav {
+    background-color: #f3f7f0;
+}
+
+nav a {
+    color: #f2545b;
+}
+
+nav a:hover {
+    background-color: #00f3ff;
+}
+
+nav a {
+    padding: 10px;
+}
+
+nav {
+    margin-bottom: 30px;
+}
