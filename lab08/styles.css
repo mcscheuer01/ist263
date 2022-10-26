@@ -39,3 +39,16 @@ nav a {
 nav {
     margin-bottom: 30px;
 }
+
+.quote {
+    float: right;
+}
+
+.bigbox1, .bigbox2 {
+    display: flex;
+    background-color: lightpink;
+    border-radius: 1em;
+    margin: 10px;
+}
+
+.clear {clear: both;}
