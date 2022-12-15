@@ -1,0 +1,61 @@
+body {
+    font-family: 'Alegreya', serif;
+    background-color: #f7f3f2;
+    color: #181d27;
+    }
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 3px solid green;
+    text-align: center;
+}
+
+.sitetitle {
+    text-align: center;
+    border: 3px solid green;
+}
+
+.introbox {
+    display: flex;
+}
+
+.introhead, .introtext {
+    float: left;
+}
+
+.introimg {
+    float: right;
+}
+
+
+.artistspotlights {
+    display: flex;
+    justify-content: space-around;
+}
+
+.smallboxklimt {
+    display: flex;
+    background-color: #69b578;
+    justify-content: space-around;
+    border-radius: 1em;
+    margin: 10px;
+    padding: 40px;
+}
+
+
+.smallboxschiele {
+    display: flex;
+    background-color: #69b578;
+    justify-content: space-around;
+    border-radius: 1em;
+    margin: 10px;
+    padding: 40px;
+}
+
+.klimtlife {
+    display: flex;
+    float: right;
+}
