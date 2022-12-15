@@ -1,7 +1,10 @@
 body {
     font-family: 'Alegreya', serif;
-    background-color: #f7f3f2;
+    background-color: #efe8e6;
     color: #181d27;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
     }
 nav {
     display: flex;
@@ -9,13 +12,12 @@ nav {
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 10px;
-    border: 3px solid green;
     text-align: center;
 }
 
 .sitetitle {
     text-align: center;
-    border: 3px solid green;
+    border: 3px solid #006a4e;
 }
 
 .introbox {
@@ -36,9 +38,25 @@ nav {
     justify-content: space-around;
 }
 
+.klimtbox {
+    background-color: #b1caa4;
+    justify-content: space-around;
+    border-radius: 1em;
+    margin: 10px;
+    padding: 40px;
+}
+
+.schielebox {
+    background-color: #b1caa4;
+    justify-content: space-around;
+    border-radius: 1em;
+    margin: 10px;
+    padding: 40px;
+}
+
 .smallboxklimt {
     display: flex;
-    background-color: #69b578;
+    background-color: #b1caa4;
     justify-content: space-around;
     border-radius: 1em;
     margin: 10px;
@@ -48,14 +66,40 @@ nav {
 
 .smallboxschiele {
     display: flex;
-    background-color: #69b578;
+    background-color: #b1caa4;
     justify-content: space-around;
     border-radius: 1em;
     margin: 10px;
     padding: 40px;
 }
 
-.klimtlife {
+.klimtintro, .schieleintro {
     display: flex;
-    float: right;
+    float: left;
+    justify-content: space-around;
+}
+
+.klimtname, .schielename {
+    padding: 10px;
+}
+
+.klimttext, .schieletext {
+    clear: both;
+}
+
+.banner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: 3px solid #006a4e;
+    padding: 10px;
+}
+
+.emphasized {
+    font-style: italic;
+}
+
+a:visited {
+    color: #006a4e;
 }
